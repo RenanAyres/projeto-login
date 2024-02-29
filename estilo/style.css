@@ -80,7 +80,7 @@ form > .campo {
 
 .campo > span {
     color: white;
-    background-color: black;
+    
     font-size: 2em;
     width: 30px;
     padding: 5px;
@@ -89,8 +89,9 @@ form > .campo {
 .campo > input {
     background-color: #94cfcd;
     font-size: 1em;
-    width: 
-    transform: translateY( -50px); 
+    width: calc(90% - 50px);
+    height: 60%; 
+    transform:translateY(-10px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
